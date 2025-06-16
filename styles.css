@@ -1,8 +1,31 @@
 body {
     background-color:darkmagenta;
     font-family: "Comic Relief";
+    
   }
 
 h1 {
     font-family: "Comic Relief";
 }
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 2 / 3 / 5; }
+    .div3 { grid-area: 2 / 1 / 6 / 2; }
+    .div4 { grid-area: 2 / 5 / 6 / 6; }
+    .div5 { grid-area: 3 / 2 / 4 / 3; }
+    .div6 { grid-area: 3 / 3 / 4 / 4; }
+    .div7 { grid-area: 3 / 4 / 4 / 5; }
+    
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    }
