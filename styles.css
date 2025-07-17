@@ -28,6 +28,7 @@ p {
 button {
     font-family: "Comic Relief";
     text-align: center;
+    height: fit-content;
 }
 .parent {
     display: grid;
