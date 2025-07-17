@@ -49,26 +49,32 @@ button {
     .div2 { grid-area: 2 / 2 / 3 / 5; 
         display: flex;
         justify-content: center;
+        align-items: center;
+
     }
     .div3 { grid-area: 2 / 1 / 6 / 2; 
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .div4 { grid-area: 2 / 5 / 6 / 6; 
         display: flex;
         justify-content: center;
-        
+        align-items: center;
     }
     .div5 { grid-area: 3 / 2 / 4 / 3; 
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .div6 { grid-area: 3 / 3 / 4 / 4; 
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .div7 { grid-area: 3 / 4 / 4 / 5; 
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
