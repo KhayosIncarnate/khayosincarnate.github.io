@@ -29,6 +29,7 @@ button {
     font-family: "Comic Relief";
     text-align: center;
     height: fit-content;
+    padding: 10px 10px;
 }
 .parent {
     display: grid;
